@@ -1,0 +1,329 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("shakars hub", "Synapse")
+
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("Rejoin Button Script", "Loads a Script Whenever You Get Kicked You Can Rejoin", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/rejoin%20button%20for%20kick%20message.lua", true))()
+    print("Clicked")
+end)
+
+Section:NewSlider("Walkspeed", "Makes You Walk Faster", 500, 16, function(s) -- 500 (MaxValue) | 16 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section:NewSlider("JumpPower", "Makes You Jump Higher", 500, 50, function(s) -- 500 (MaxValue) | 50 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+Section:NewButton("Infinite Jumps", "Makes Your Jump Infinite", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/oksinfjump/main/workssssss",true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Kat Aimbot", "Gets You Aimbot In Kat", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Kat12/main/Kat"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Strong Man Simulator Farm", "Gives You An Strong Man Simulator Gui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0strongman", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Flash Back Script", "Gives You a Button To Flashback", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/cgWLwdN9", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Ragdoll Engine Malware Hub", "Gives You An Hub For Ragdoll Engine", function()
+loadstring(game:HttpGet('https://gist.githubusercontent.com/H20CalibreYT/462f6e6236a9371130f113def6549bb1/raw/'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Fake Lag Script", "Makes You Fake Lag In Fe", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/VM3b0Thg'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Fly Script", "Makes You Lag", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Infinite Yeild", "Loads Infinite Yield Script", function()
+loadstring(game:HttpGet"https://pastebin.com/raw/3P1z104N")()
+    print("Clicked")
+end)
+
+Section:NewButton("Keyboard Script", "Loads Keyboard Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))
+    print("Clicked")
+end)
+
+Section:NewButton("Invisible Script", "Makes You Invisible Fe", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Cheesy Hub", "Loads Cheesy Hub", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/zAuR0JUT"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Race Car Script", "Loads Fe Race Car script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukezz/Fe-Scripts/main/Fe%20Racecar"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Fe Punch Fling", "Punch Ppl And Fling Them", function()
+loadstring(game:HttpGet(('https://pastefy.ga/GvnHVjT5/raw'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Some Random Hub", "Loads Some Random Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/VcskV/main/Hub/main.lua", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Babft Script", "Loads Babft Script", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Fe Save Location Script", "Save Your Location Script", function()
+loadstring(game:HttpGet(('https://0raw.githubusercontent.com/0Ben1/fe/main/Tp%20Place%20GUI'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Fe Free Dance Script", "Loads a Gui With Free Dances", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Dh Aim Viewer Script", "Loads Da Hood Aim Viewer Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/VinGUI"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Vhub Script", "Loads Vhub With Alot Of Scripts", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/2642/Created/VHub"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Dh Private Kai Lock", "Loads a Tool That Gives You Lock In Dh", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/j08xM9mW", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Unfair Hub", "Loads Unfair Hub Eith Alot Of Scripts In It", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rblxscriptsnet/rblxhub/main/rblxhub.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Mimic Script", "Loads An Gui That Make You Copy Ppls Chat", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe./8fb5ed20fb168d1ae3044ede45b90f67e3fb37a2/file'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Fe Parkour Script", "Loads An Script That You Can Parkour On Walls", function()
+loadstring(game:HttpGet(('https://pastefy.ga/6HAb8rAj/raw'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Troll Gui Script", "Loads Troll Gui", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/5seCbYFa'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Legs Admin Command Script", "Loads Legs Admin Command", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/leg1337/legadmv2/main/legadminv2.lua'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Fe Animation Changer Script", "Loads An Script That Can Change Your Animation Fe", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LunarWareOP/Animation-Changer-Source/main/Script", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Lag Switch Script", "Loads An Lag Switch Script That Only Works In R15", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/Protected%20-%202023-05-28T225112.055.lua.txt'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Ragdoll Engine Script V2", "Loads A Diffrent Ragdoll Engine Scropt", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/MysteryHub/main/MysteryHub%20-%20Ragdoll%20Engine.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Rizz Script", "Loads a Script Gui That Rizz Ppl", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/pPMRh5YJ"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Chat Bypass Script", "Loads a Hub With Swear Words", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv1'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Air Swim", "Loads a Script That Make You Swim In The Air", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/9CK0qSgn"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Chat Executor", "Loads a Script That Lets You Execute Script With Chat", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/chat-executor/main/chat-executor",true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Bido Skins Hub", "Loads Bido Skins Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20SkinsV1.5"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Fe Bird Script", "Loads a Script That Makes You Bird In Fe", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/Fe%20Bird%20R6%20and%20R15'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Games Hub Destroyer V4", "Loads a Hub With Alot Of Games Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-HUB-Destroyer-V4/main/Games%20HUB%20Destroyer%20V4"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Vehicle Legends Script", "Loads Vehicle Legends Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/UltimateHub"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Q Tool Script", "Loads An Script That Gives You Q Tool", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/qtoolv3/main/qtoolv3", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Dhat Lock Script", "Loads Dhat Lock Tool", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/j08xM9mW", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Player Specetor Script", "Loads An Script That Lets You Watch Other Players", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/wyvdb7gr'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Teleport Script", "Loads An Script That Lets You Teleport Other Players", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
+    print("Clicked")
+end)
+
+Section:NewButton("No Clip Gui", "Loads An Gui ThatLets You Go Inside Of Anything", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/pKV2Ys4E"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Lock Tools Gui", "Loads An Hub With Alot Of Lock Tools", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/8G5wzp3L"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Dhat Fake Macro", "Loads Dhat Fake Macro", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Zk7tY25L", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Blox Fruit Chest Farm V1", "Loads Blox Fruit Chest Farm Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/ChestFarmOp"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Blox Fruit Chest Farm V2 [ the best one ]", "Loads Blox Fruit Chest Farm Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Chest_onoff"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Blox Fruit Hub", "Loads Blox Fruit Hub With Alot Of Other Hubs", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/lxnnydev/1325a6ec942d0bb837bafe0ee25fcc5c/raw/c9ab9f038142427ba1739f099e78bb0b0588fa40/bf_script.lua",true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Ninja Legends Gui", "Loads Ninja Legends Gui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AliCode14/scripts/main/ScriptHub.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Beamed Ware Hub", "Loads Beamed Ware Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RYZZCHIPSX/ryzzchips/main/beamed%20ware%20script"))();
+    print("Clicked")
+end)
+
+Section:NewButton("Arceus X Hub", "Loads Arceus X Hub Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Netless Script", "Loads Netless Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/netsless/main/netless",true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Dino Animations Script", "Loads Dino Animations And Punch Script", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_K2n31uc6t2wY5A8786eR4K15sgbUF0vdQ80a0LzgvLRkSNYd89H1AS3124gMR6SM.lua.txt'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("SpiderMan Script", "Loads SpiderMan Script", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/2X0hKUgq'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Pop It Trading Script", "Loads Pop It Trading Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sponge123456789/Sponge/main/The%20cool%20Script"))()
+    print("Clicked")
+end)
+
+Section:NewButton("JNHH Tool Giver Script", "Loads JNHH Tool Giver Script", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/4yGehrgh'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Universal Spy Script", "Loads a Script That Lets You Spy Other People", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MichaelScripter/MiniScript/main/Spy gui.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Mm2 Script Gui", "Loads Mm2 Script Gui", function()
+loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+    print("Clicked")
+end)
+
+Section:NewButton("KeyStrokes Script", "Loads WASD KeyStrokes Script", function()
+loadstring(game:HttpGet(('https://pastefy.app/Te4dwSw2/raw'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Anti Fling Script", "Loads a Script That Wont Let You Get Flinged", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/GxdesRQx'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Combat Warrior Hub", "Loads Combat Warrior Nova Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NOVA_HUB_SOURCE"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Hitbox Expander", "Loads a Script That Makes Your Hitbox Bigger", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/hit/main/box",true))()
+    print("Clicked")
+end)
+
+
+Section:NewButton("Hitbox Expander V2", "Loads a Script That Makes Your Hitbox Bigger", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Hitbox Expander V3", "Loads a Script That Makes Your Hitbox Bigger", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/JgtddWA3'))()
+    print("Clicked")
+end)
